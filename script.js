@@ -21,6 +21,9 @@ function organizeAndDisplayFoods(foods) {
   const swallowMenu = document.getElementById("swallow-menu");
   const soupMenu = document.getElementById("soup-menu");
   const italianDelightMenu = document.getElementById("italian-delight-menu");
+  const beveragesMenu = document.getElementById("beverages-menu");
+  const snacksMenu = document.getElementById("snacks-menu");
+  const smoothiesMenu = document.getElementById("smoothies-menu");
 
   foods.forEach((food) => {
     const card = document.createElement("div");
@@ -66,8 +69,17 @@ function organizeAndDisplayFoods(foods) {
     }
     if (food.category === "Soup") {
       soupMenu.appendChild(categoryContainer);
-    } else if (food.category === "Italian Delight") {
+    }
+    if (food.category === "Italian Delight") {
       italianDelightMenu.appendChild(categoryContainer);
+    }
+    if (food.category === "Beverages") {
+      beveragesMenu.appendChild(categoryContainer);
+    }
+    if (food.category === "Snacks") {
+      snacksMenu.appendChild(categoryContainer);
+    } else if (food.category === "Smoothies") {
+      smoothiesMenu.appendChild(categoryContainer);
     }
   });
 }

@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "name": "Burger",
+    "name": "Jollof Rice",
     "price": 5.99,
-    "image": "burger.jpg",
+    "image": "./images/Rice/IMG-20231210-WA0026.jpg",
     "category": "Rice"
   },
   {
     "id": 2,
-    "name": "Pizza",
+    "name": "Fried Rice",
     "price": 8.99,
-    "image": "pizza.jpg",
+    "image": "./images/Rice/chaffing-dish-jollof-vegetable-fried-rice-nigerian-party-catering-celebration-chaffing-dish-jollof-151375683.jpg",
     "category": "Rice"
   },
   {
@@ -36,35 +36,35 @@
   },
   {
     "id": 6,
-    "name": "Ice Cream",
+    "name": "Chocolate Cake",
     "price": 4.99,
     "image": "ice_cream.jpg",
     "category": "Desserts"
   },
   {
     "id": 7,
-    "name": "Ice Cream",
+    "name": "Rice & Beans",
     "price": 4.99,
-    "image": "ice_cream.jpg",
+    "image": "./images/Combos/rice-beans-pot-nigerian-food-cooked-brown-264701553.jpg",
     "category": "Combos"
   },
   {
     "id": 8,
-    "name": "Ice Cream",
+    "name": "Omelette Mixed & Plantain",
     "price": 4.99,
     "image": "ice_cream.jpg",
     "category": "Combos"
   },
   {
     "id": 9,
-    "name": "Ice Cream",
+    "name": "Chicken",
     "price": 4.99,
-    "image": "ice_cream.jpg",
+    "image": "./images/Protein/fried-chicken-plate-side-dishes-49348222.jpg",
     "category": "Protein"
   },
   {
     "id": 10,
-    "name": "Ice Cream",
+    "name": "Beef",
     "price": 4.99,
     "image": "ice_cream.jpg",
     "category": "Protein"
@@ -85,58 +85,450 @@
   },
   {
     "id": 13,
-    "name": "Ice Cream",
+    "name": "Eba",
     "price": 4.99,
     "image": "ice_cream.jpg",
     "category": "Swallow"
   },
   {
     "id": 14,
-    "name": "Ice Cream",
+    "name": "Amala",
     "price": 4.99,
-    "image": "ice_cream.jpg",
+    "image": "./images/Swallow/IMG-20231210-WA0027.jpg",
     "category": "Swallow"
   },
   {
     "id": 15,
-    "name": "Ice Cream",
+    "name": "Egusi",
     "price": 4.99,
-    "image": "ice_cream.jpg",
+    "image": "./images/Soup/egusi-soup-nigerian-cuisine-isolated-white-background-62743439.jpg",
     "category": "Soup"
   },
   {
     "id": 16,
-    "name": "Ice Cream",
-    "price": 4.99,
+    "name": "Ewedu",
+    "price": 0.0,
     "image": "ice_cream.jpg",
     "category": "Soup"
   },
   {
     "id": 17,
-    "name": "Ice Cream",
+    "name": "Spaghetti Carbonara",
     "price": 4.99,
     "image": "ice_cream.jpg",
     "category": "Italian Delight"
   },
   {
     "id": 18,
-    "name": "Ice Cream",
+    "name": "Coca-cola",
+    "price": 4.99,
+    "image": "./images/Beverages/cocacola-drinks-kuala-lumpur-malaysia-july-ml-glass-bottle-japan-edition-white-background-84064904.jpg",
+    "category": "Beverages"
+  },
+  {
+    "id": 19,
+    "name": "Meat Pie",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": 20,
+    "name": "Banana Shakes",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Smoothies"
+  },
+  {
+    "id": 21,
+    "name": "Chicken Rice",
+    "price": 4.99,
+    "image": "./images/Rice/delicious-chicken-fried-rice-egg-carrot-garlic-green-onion-chicken-fried-rice-114287130.jpg",
+    "category": "Rice"
+  },
+  {
+    "id": 22,
+    "name": "Vegetable Rice",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Rice"
+  },
+  {
+    "id": 23,
+    "name": "Coconut Rice",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Rice"
+  },
+  {
+    "id": 25,
+    "name": "Spaghetti Arrabiata",
     "price": 4.99,
     "image": "ice_cream.jpg",
     "category": "Italian Delight"
   },
   {
-    "id": 19,
-    "name": "Ice Cream",
+    "id": 26,
+    "name": "Spaghetti Bolognaise",
     "price": 4.99,
     "image": "ice_cream.jpg",
+    "category": "Italian Delight"
+  },
+  {
+    "id": 27,
+    "name": "Spaghetti Jambalaya",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Italian Delight"
+  },
+  {
+    "id": 28,
+    "name": "Spaghetti Napolitana",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Italian Delight"
+  },
+  {
+    "id": 29,
+    "name": "Peppered Noodles",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Italian Delight"
+  },
+  {
+    "id": 30,
+    "name": "Macaroni Vegetable",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Italian Delight"
+  },
+  {
+    "id": 31,
+    "name": "Noodles & Omelette",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Italian Delight"
+  },
+  {
+    "id": 32,
+    "name": "Shrimp Fried Rice",
+    "price": 4.99,
+    "image": "./images/Rice/shrimp-fried-rice-15385073.jpg",
     "category": "Rice"
   },
   {
-    "id": 20,
-    "name": "Ice Cream",
+    "id": 33,
+    "name": "Cupcakes",
     "price": 4.99,
     "image": "ice_cream.jpg",
-    "category": "Rice"
+    "category": "Desserts"
+  },
+  {
+    "id": 34,
+    "name": "Chin Chin",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Desserts"
+  },
+  {
+    "id": 35,
+    "name": "Banana Pudding",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Desserts"
+  },
+  {
+    "id": 36,
+    "name": "Cookies",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Desserts"
+  },
+  {
+    "id": 37,
+    "name": "Brownies",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Desserts"
+  },
+  {
+    "id": 38,
+    "name": "Chicken & Chips",
+    "price": 4.99,
+    "image": "./images/Combos/fried-chicken-fries-southern-french-studio-shot-41474960.jpg",
+    "category": "Combos"
+  },
+  {
+    "id": 39,
+    "name": "Breakfast Special",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Combos"
+  },
+  {
+    "id": 40,
+    "name": "Lunch Special",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Combos"
+  },
+  {
+    "id": 41,
+    "name": "Dinner Special",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Combos"
+  },
+  {
+    "id": 42,
+    "name": "Jollof Rice & Dodo",
+    "price": 4.99,
+    "image": "./images/Combos/IMG-20231210-WA0016.jpg",
+    "category": "Combos"
+  },
+  {
+    "id": 43,
+    "name": "Pounded Yam & Egusi",
+    "price": 4.99,
+    "image": "./images/Combos/egusi-melon-soup-pounded-yam-staple-nigerian-diet-pounded-yam-egusi-served-blue-bowl-above-116881582.jpg",
+    "category": "Combos"
+  },
+  {
+    "id": 44,
+    "name": "Boiled Egg",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Protein"
+  },
+  {
+    "id": 45,
+    "name": "Goat Meat",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Protein"
+  },
+  {
+    "id": 46,
+    "name": "Turkey",
+    "price": 4.99,
+    "image": "./images/Protein/IMG-20231210-WA0019.jpg",
+    "category": "Protein"
+  },
+  {
+    "id": 47,
+    "name": "Catfish",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Protein"
+  },
+  {
+    "id": 48,
+    "name": "Titus Fish",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Protein"
+  },
+  {
+    "id": 49,
+    "name": "Assorted Meat",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Protein"
+  },
+  {
+    "id": 50,
+    "name": "Semo",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Swallow"
+  },
+  {
+    "id": 51,
+    "name": "Pounded Yam",
+    "price": 4.99,
+    "image": "./images/Swallow/nigerian-food-delicious-pounded-yam-white-plate-dining-concept-n-white-bowl-rich-vegetables-lunch-nigerian-food-185024492.jpg",
+    "category": "Swallow"
+  },
+  {
+    "id": 52,
+    "name": "Wheat",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Swallow"
+  },
+  {
+    "id": 53,
+    "name": "Fufu",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Swallow"
+  },
+  {
+    "id": 54,
+    "name": "Tuwo",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Swallow"
+  },
+  {
+    "id": 55,
+    "name": "Efo-riro",
+    "price": 4.99,
+    "image": "./images/Soup/nigerian-food-delicious-efo-riro-soup-stock-fish-white-bowl-rich-vegetables-lunch-185024044.jpg",
+    "category": "Soup"
+  },
+  {
+    "id": 56,
+    "name": "Ogbono",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Soup"
+  },
+  {
+    "id": 57,
+    "name": "Edikaikong",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Soup"
+  },
+  {
+    "id": 58,
+    "name": "Bitter-leaf Soup",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Soup"
+  },
+  {
+    "id": 59,
+    "name": "Gbegiri",
+    "price": 0.0,
+    "image": "ice_cream.jpg",
+    "category": "Soup"
+  },
+  {
+    "id": 60,
+    "name": "Red Soup",
+    "price": 0.0,
+    "image": "ice_cream.jpg",
+    "category": "Soup"
+  },
+  {
+    "id": 61,
+    "name": "Fanta",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Beverages"
+  },
+  {
+    "id": 62,
+    "name": "Zobo",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Beverages"
+  },
+  {
+    "id": 63,
+    "name": "Water",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Beverages"
+  },
+  {
+    "id": 64,
+    "name": "Egg Roll",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": 65,
+    "name": "Samosas & Spring Roll",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": 66,
+    "name": "Chicken Pie",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": 67,
+    "name": "Burger",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": 68,
+    "name": "Sausage Roll",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": 69,
+    "name": "Doughnut",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": 70,
+    "name": "Shawarma",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": 71,
+    "name": "Apple Shakes",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Smoothies"
+  },
+  {
+    "id": 72,
+    "name": "Mango Shakes",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Smoothies"
+  },
+  {
+    "id": 73,
+    "name": "Vanilla Shakes",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Smoothies"
+  },
+  {
+    "id": 74,
+    "name": "Chocolate Shakes",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Smoothies"
+  },
+  {
+    "id": 75,
+    "name": "Paw-Paw Shakes",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Smoothies"
+  },
+  {
+    "id": 76,
+    "name": "Coconut Shakes",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Smoothies"
+  },
+  {
+    "id": 77,
+    "name": "Strawberry Shakes",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Smoothies"
   }
 ]
