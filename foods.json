@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Burger",
+    "price": 5.99,
+    "image": "burger.jpg",
+    "category": "Rice"
+  },
+  {
+    "id": 2,
+    "name": "Pizza",
+    "price": 8.99,
+    "image": "pizza.jpg",
+    "category": "Rice"
+  },
+  {
+    "id": 3,
+    "name": "Chocolate Cake",
+    "price": 6.49,
+    "image": "chocolate_cake.jpg",
+    "category": "Platter"
+  },
+  {
+    "id": 4,
+    "name": "Salmon",
+    "price": 12.99,
+    "image": "salmon.jpg",
+    "category": "Platter"
+  },
+  {
+    "id": 5,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Desserts"
+  },
+  {
+    "id": 6,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Desserts"
+  },
+  {
+    "id": 7,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Combos"
+  },
+  {
+    "id": 8,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Combos"
+  },
+  {
+    "id": 9,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Protein"
+  },
+  {
+    "id": 10,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Protein"
+  },
+  {
+    "id": 11,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Sandwiches"
+  },
+  {
+    "id": 12,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Sandwiches"
+  },
+  {
+    "id": 13,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Swallow"
+  },
+  {
+    "id": 14,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Swallow"
+  },
+  {
+    "id": 15,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Soup"
+  },
+  {
+    "id": 16,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Soup"
+  },
+  {
+    "id": 17,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Italian Delight"
+  },
+  {
+    "id": 18,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Italian Delight"
+  },
+  {
+    "id": 19,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Rice"
+  },
+  {
+    "id": 20,
+    "name": "Ice Cream",
+    "price": 4.99,
+    "image": "ice_cream.jpg",
+    "category": "Rice"
+  }
+]

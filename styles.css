@@ -1,0 +1,152 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  width: 100%;
+  transition: top 0.3s; /* Add transition effect for smooth movement */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 1em;
+  margin-top: 50px; /* Adjust this value based on your fixed navigation bar height */
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+.category-container {
+  display: inline-flex;
+  justify-content: space-around; /*Adjust this as needed*/
+  flex-wrap: wrap; /*Allow items to wrap to the next line*/
+}
+
+#cart {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px; /* Set the width of the cart */
+  max-height: 80%; /* Set the maximum height of the cart */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  background-color: #f8f8f8;
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#cart.open {
+  display: block;
+}
+
+#cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-items li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+#total {
+  font-weight: bold;
+}
+
+#notification {
+  display: none;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Add a class to fix the navigation bar to the top */
+.fixed-nav {
+  top: 0;
+}
+
+/* body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+section {
+  padding: 1em;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+#cart {
+  display: none;
+  padding: 1em;
+}
+
+#cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-items li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+#total {
+  font-weight: bold;
+} */
