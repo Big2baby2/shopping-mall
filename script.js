@@ -29,7 +29,9 @@ function organizeAndDisplayFoods(foods) {
     const card = document.createElement("div");
     card.classList.add("card");
     card.innerHTML = `
-            <img src="${food.image}" alt="${food.name}" width="150">
+            <img src="${food.image}" alt="${
+      food.name
+    }" width="150" height="150px">
             <h3>${food.name}</h3>
             <p>$${food.price.toFixed(2)}</p>
             <input type="number" value="1" min="1" id="quantity-${food.id}">
@@ -128,7 +130,7 @@ function updateCart() {
     li.innerHTML = `
             <span>${item.name} x${item.quantity}</span>
             <span>$${(item.price * item.quantity).toFixed(2)}</span>
-            <button onclick="removeFromCart(${index})">Remove</button>
+            <button id="remove-btn" onclick="removeFromCart(${index})"><img src="./images/Icons/icon-delete.svg" alt="Remove"></button>
         `;
     cartList.appendChild(li);
 

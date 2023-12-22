@@ -26,7 +26,9 @@
         <li><a href="#snacks">Snacks</a></li>
         <li><a href="#smoothies">Smoothies</a></li>
       </ul>
-      <button id="cart-btn" onclick="toggleCart()">Cart</button>
+      <button id="cart-btn" onclick="toggleCart()">
+        <img src="./images/Icons/icon-cart.svg" alt="cart" id="cart-open-btn" />
+      </button>
     </nav>
 
     <section id="rice">
@@ -90,11 +92,15 @@
     </section>
 
     <section id="cart">
-      <h2>Your Cart</h2>
+      <h2 class="cart-title">
+        Your Cart<span
+          ><button class="close-cart-btn" onclick="toggleCart()">
+            <img src="./images/Icons/icon-close.svg" alt="Close" /></button
+        ></span>
+      </h2>
       <ul id="cart-items"></ul>
-      <p>Total: $<span id="total">0.00</span></p>
-      <button onclick="checkout()">Checkout</button>
-      <button onclick="toggleCart()">Close</button>
+      <p class="cart-total">Total: $<span id="total">0.00</span></p>
+      <button class="cart-checkout-btn" onclick="checkout()">Checkout</button>
     </section>
 
     <div id="notification"></div>

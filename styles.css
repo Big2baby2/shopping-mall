@@ -4,6 +4,13 @@ body {
   padding: 0;
 }
 
+header,
+nav {
+  background-image: url("./images/WhatsApp Image 2023-12-08 at 23.53.38_41f03ef3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 header {
   background-color: #333;
   color: white;
@@ -18,9 +25,11 @@ nav {
   color: white;
   padding: 1em 0;
   text-align: center;
+  align-items: center;
   position: sticky;
   width: 100%;
   transition: top 0.3s; /* Add transition effect for smooth movement */
+  z-index: 1000;
 }
 
 nav ul {
@@ -40,6 +49,10 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  color: royalblue;
+}
+
 section {
   padding: 1em;
   margin-top: 50px; /* Adjust this value based on your fixed navigation bar height */
@@ -48,26 +61,65 @@ section {
 .card {
   border: 1px solid #ccc;
   border-radius: 8px;
+  /* justify-content: center; */
+  /* height: 3%; */
   margin: 1em;
   padding: 1em;
   text-align: center;
   box-shadow: 8px 10px 12px 1px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 8px 10px 12px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 8px 10px 12px 1px rgba(0, 0, 0, 0.75);
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition for the transform property */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Move the card 5 pixels up when hovering */
+  box-shadow: 8px 10px 12px 1px rgba(0, 0, 0, 0.752); /* Optional: Adjust the box shadow */
 }
 
 .category-container {
   display: inline-flex;
+  /* height: 30vh; */
   justify-content: space-around; /*Adjust this as needed*/
   flex-wrap: wrap; /*Allow items to wrap to the next line*/
+}
+
+/* .cart-title,
+.cart-total,
+.cart-checkout-btn {
+  position: absolute;
+} */
+
+.close-cart-btn {
+  position: relative;
+  left: 57%;
+  background: transparent;
+  border: none;
 }
 
 #cart-btn {
   position: relative;
   left: 10%;
+  /* color: white; */
   border: none;
   padding: 5px 20px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* #cart-btn img:hover {
+  background: white;
+} */
+
+/* #cart-btn:hover {
+  background-color: white;
+  color: royalblue;
+} */
+
+#remove-btn {
+  background: transparent;
+  border: none;
 }
 
 #cart {
@@ -75,10 +127,11 @@ section {
   position: fixed;
   top: 50%;
   left: 50%;
+  border-radius: 4px;
   transform: translate(-50%, -50%);
   width: 300px; /* Set the width of the cart */
-  max-height: 80%; /* Set the maximum height of the cart */
-  overflow-y: auto; /* Enable vertical scrolling if needed */
+  max-height: 50%; /* Set the maximum height of the cart */
+  overflow-y: auto; /*Enable vertical scrolling if needed */
   background-color: #f8f8f8;
   padding: 1em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -109,6 +162,7 @@ section {
   color: white;
   text-align: center;
   padding: 15px;
+  font-size: 15px;
   line-height: 1.5;
   text-transform: uppercase;
   position: fixed;
@@ -125,6 +179,39 @@ section {
 /* Add a class to fix the navigation bar to the top */
 .fixed-nav {
   top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+
+  /* nav {
+    flex-direction: column;
+    overflow: scroll;
+  } */
+
+  nav ul {
+    overflow-x: scroll;
+    width: 100%;
+  }
+
+  nav li {
+    /* display: block; */
+    margin: 5px 0;
+    /* overflow: scroll; */
+  }
+
+  #cart-btn {
+    left: auto;
+    margin-top: 10px;
+  }
+
+  .close-cart-btn {
+    left: auto;
+  }
+
+  .card {
+    width: 100%; /* Make cards take full width on smaller screens */
+  }
 }
 
 /* body {
